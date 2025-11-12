@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+     <style name="Base.Theme.BMICalculator" parent="Theme.Material3.DayNight.NoActionBar">
+
+
+    </style>
+
+    <style name="Theme.BMICalculator" parent="Base.Theme.BMICalculator" />
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+
+        <item name="windowSplashScreenBackground">#F5D1FB</item>
+
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+
+        <item name="postSplashScreenTheme">@style/Theme.BMICalculator</item>
+    </style>
+</resources>
